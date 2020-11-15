@@ -16,5 +16,9 @@
  The variable names reflect that this script was designed to be used to support
  eBallots for a two-team two-speaker per team debate tournament.
 
+# Sample
+ This Google Form is a sample eBallot.
+ https://forms.gle/8csNVP9osdEDHMt16
+
 # Author
  Austin Redmond 
