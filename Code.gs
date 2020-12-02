@@ -48,7 +48,7 @@ function updateForm() {
   
   var judgeNames = [];
   var teamNames = [];
-  var SpeakerNames = [];
+  var speakerNames = [];
   var roomNames = [];
   
   // convert the array ignoring empty cells
@@ -64,7 +64,7 @@ function updateForm() {
   // convert the array ignoring empty cells
   for(var i = 0; i < SpeakerNamesValues.length; i++)   
     if(SpeakerNamesValues[i][0] != "")
-      SpeakerNames[i] = SpeakerNamesValues[i][0];
+      speakerNames[i] = SpeakerNamesValues[i][0];
   
     // convert the array ignoring empty cells
   for(var i = 0; i < roomNamesValues.length; i++)   
@@ -77,11 +77,11 @@ function updateForm() {
 
   
   propositionTeamList.setChoiceValues(teamNames);
-  firstPropositionSpeakerList.setChoiceValues(SpeakerNames);
-  secondPropositionSpeakerList.setChoiceValues(SpeakerNames);
+  firstPropositionSpeakerList.setChoiceValues(speakerNames);
+  secondPropositionSpeakerList.setChoiceValues(speakerNames);
 
   oppositionTeamList.setChoiceValues(teamNames);
-  firstOppositionSpeakerList.setChoiceValues(SpeakerNames);
-  secondOppositionSpeakerList.setChoiceValues(SpeakerNames);
+  firstOppositionSpeakerList.setChoiceValues(speakerNames);
+  secondOppositionSpeakerList.setChoiceValues(speakerNames);
   
 }
